@@ -15,4 +15,8 @@ git remote add origin https://github.com/sbruksha/testOCR.git
 git branch -M main
 git push -u origin main
 
+## Login to Github
 conda install gh --channel conda-forge	
+gh auth login
+
+huggingface-cli login
